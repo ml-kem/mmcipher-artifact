@@ -1,0 +1,209 @@
+# Linux zinc 6.12.6-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.6-1 (2024-12-21) x86_64 GNU/Linux
+# Mon Jan  6 15:44:10 UTC 2025
+
+        Kyber512        parameters  |pk|= 800  |sk|= 1632  |ct|= 768  |ss|= 32
+        Kyber512              seed  time= 1736178250
+        Kyber512        ciphertext  N=    1  len=       768
+        Kyber512   ML-KEM.KeyGen()  N=    1  cyc=     99274  sec= 0.000030
+        Kyber512   ML-KEM.Encaps()  N=    1  cyc=    118502  sec= 0.000036
+        Kyber512   ML-KEM.Decaps()  N=    1  cyc=    161438  sec= 0.000049
+        Kyber512   K-PKE.Encrypt()  N=    1  cyc=    111006  sec= 0.000034
+        Kyber512   K-PKE.Decrypt()  N=    1  cyc=     40764  sec= 0.000012
+        Kyber512        ciphertext  N=    2  len=      1536
+        Kyber512   ML-KEM.KeyGen()  N=    2  cyc=    198411  sec= 0.000060
+        Kyber512   ML-KEM.Encaps()  N=    2  cyc=    236899  sec= 0.000072
+        Kyber512   ML-KEM.Decaps()  N=    2  cyc=    322634  sec= 0.000098
+        Kyber512   K-PKE.Encrypt()  N=    2  cyc=    221821  sec= 0.000067
+        Kyber512   K-PKE.Decrypt()  N=    2  cyc=     81276  sec= 0.000025
+        Kyber512        ciphertext  N=    4  len=      3072
+        Kyber512   ML-KEM.KeyGen()  N=    4  cyc=    396556  sec= 0.000120
+        Kyber512   ML-KEM.Encaps()  N=    4  cyc=    474779  sec= 0.000144
+        Kyber512   ML-KEM.Decaps()  N=    4  cyc=    645575  sec= 0.000196
+        Kyber512   K-PKE.Encrypt()  N=    4  cyc=    443716  sec= 0.000135
+        Kyber512   K-PKE.Decrypt()  N=    4  cyc=    162534  sec= 0.000049
+        Kyber512        ciphertext  N=    8  len=      6144
+        Kyber512   ML-KEM.KeyGen()  N=    8  cyc=    793344  sec= 0.000241
+        Kyber512   ML-KEM.Encaps()  N=    8  cyc=    950546  sec= 0.000289
+        Kyber512   ML-KEM.Decaps()  N=    8  cyc=   1292116  sec= 0.000392
+        Kyber512   K-PKE.Encrypt()  N=    8  cyc=    887943  sec= 0.000270
+        Kyber512   K-PKE.Decrypt()  N=    8  cyc=    325298  sec= 0.000099
+        Kyber512        ciphertext  N=   16  len=     12288
+        Kyber512   ML-KEM.KeyGen()  N=   16  cyc=   1586312  sec= 0.000482
+        Kyber512   ML-KEM.Encaps()  N=   16  cyc=   1896326  sec= 0.000576
+        Kyber512   ML-KEM.Decaps()  N=   16  cyc=   2583046  sec= 0.000784
+        Kyber512   K-PKE.Encrypt()  N=   16  cyc=   1776397  sec= 0.000539
+        Kyber512   K-PKE.Decrypt()  N=   16  cyc=    650310  sec= 0.000197
+        Kyber512        ciphertext  N=   32  len=     24576
+        Kyber512   ML-KEM.KeyGen()  N=   32  cyc=   3170274  sec= 0.000962
+        Kyber512   ML-KEM.Encaps()  N=   32  cyc=   3800505  sec= 0.001154
+        Kyber512   ML-KEM.Decaps()  N=   32  cyc=   5171659  sec= 0.001570
+        Kyber512   K-PKE.Encrypt()  N=   32  cyc=   3557514  sec= 0.001080
+        Kyber512   K-PKE.Decrypt()  N=   32  cyc=   1302280  sec= 0.000395
+        Kyber512        ciphertext  N=   64  len=     49152
+        Kyber512   ML-KEM.KeyGen()  N=   64  cyc=   6344474  sec= 0.001926
+        Kyber512   ML-KEM.Encaps()  N=   64  cyc=   7593650  sec= 0.002305
+        Kyber512   ML-KEM.Decaps()  N=   64  cyc=  10341830  sec= 0.003140
+        Kyber512   K-PKE.Encrypt()  N=   64  cyc=   7123238  sec= 0.002163
+        Kyber512   K-PKE.Decrypt()  N=   64  cyc=   2602375  sec= 0.000790
+        Kyber512        ciphertext  N=  128  len=     98304
+        Kyber512   ML-KEM.KeyGen()  N=  128  cyc=  12692023  sec= 0.003853
+        Kyber512   ML-KEM.Encaps()  N=  128  cyc=  15974480  sec= 0.004850
+        Kyber512   ML-KEM.Decaps()  N=  128  cyc=  21454150  sec= 0.006513
+        Kyber512   K-PKE.Encrypt()  N=  128  cyc=  14987681  sec= 0.004550
+        Kyber512   K-PKE.Decrypt()  N=  128  cyc=   5210137  sec= 0.001582
+        Kyber512        ciphertext  N=  256  len=    196608
+        Kyber512   ML-KEM.KeyGen()  N=  256  cyc=  25384034  sec= 0.007707
+        Kyber512   ML-KEM.Encaps()  N=  256  cyc=  32046883  sec= 0.009729
+        Kyber512   ML-KEM.Decaps()  N=  256  cyc=  43050861  sec= 0.013070
+        Kyber512   K-PKE.Encrypt()  N=  256  cyc=  30121538  sec= 0.009145
+        Kyber512   K-PKE.Decrypt()  N=  256  cyc=  10425258  sec= 0.003165
+        Kyber512        ciphertext  N=  512  len=    393216
+        Kyber512   ML-KEM.KeyGen()  N=  512  cyc=  50781112  sec= 0.015417
+        Kyber512   ML-KEM.Encaps()  N=  512  cyc=  64108187  sec= 0.019463
+        Kyber512   ML-KEM.Decaps()  N=  512  cyc=  86076176  sec= 0.026133
+        Kyber512   K-PKE.Encrypt()  N=  512  cyc=  60251770  sec= 0.018292
+        Kyber512   K-PKE.Decrypt()  N=  512  cyc=  20947186  sec= 0.006360
+        Kyber512        ciphertext  N= 1024  len=    786432
+        Kyber512   ML-KEM.KeyGen()  N= 1024  cyc= 101524606  sec= 0.030823
+        Kyber512   ML-KEM.Encaps()  N= 1024  cyc= 128229273  sec= 0.038930
+        Kyber512   ML-KEM.Decaps()  N= 1024  cyc= 172399007  sec= 0.052340
+        Kyber512   K-PKE.Encrypt()  N= 1024  cyc= 120488815  sec= 0.036580
+        Kyber512   K-PKE.Decrypt()  N= 1024  cyc=  41970646  sec= 0.012742
+
+        Kyber768        parameters  |pk|= 1184  |sk|= 2400  |ct|= 1088  |ss|= 32
+        Kyber768              seed  time= 1736178435
+        Kyber768        ciphertext  N=    1  len=      1088
+        Kyber768   ML-KEM.KeyGen()  N=    1  cyc=    170606  sec= 0.000052
+        Kyber768   ML-KEM.Encaps()  N=    1  cyc=    188319  sec= 0.000057
+        Kyber768   ML-KEM.Decaps()  N=    1  cyc=    245078  sec= 0.000074
+        Kyber768   K-PKE.Encrypt()  N=    1  cyc=    177324  sec= 0.000054
+        Kyber768   K-PKE.Decrypt()  N=    1  cyc=     53717  sec= 0.000016
+        Kyber768        ciphertext  N=    2  len=      2176
+        Kyber768   ML-KEM.KeyGen()  N=    2  cyc=    340805  sec= 0.000103
+        Kyber768   ML-KEM.Encaps()  N=    2  cyc=    376493  sec= 0.000114
+        Kyber768   ML-KEM.Decaps()  N=    2  cyc=    489910  sec= 0.000149
+        Kyber768   K-PKE.Encrypt()  N=    2  cyc=    354241  sec= 0.000108
+        Kyber768   K-PKE.Decrypt()  N=    2  cyc=    107800  sec= 0.000033
+        Kyber768        ciphertext  N=    4  len=      4352
+        Kyber768   ML-KEM.KeyGen()  N=    4  cyc=    681647  sec= 0.000207
+        Kyber768   ML-KEM.Encaps()  N=    4  cyc=    753960  sec= 0.000229
+        Kyber768   ML-KEM.Decaps()  N=    4  cyc=    981049  sec= 0.000298
+        Kyber768   K-PKE.Encrypt()  N=    4  cyc=    710114  sec= 0.000216
+        Kyber768   K-PKE.Decrypt()  N=    4  cyc=    215021  sec= 0.000065
+        Kyber768        ciphertext  N=    8  len=      8704
+        Kyber768   ML-KEM.KeyGen()  N=    8  cyc=   1363009  sec= 0.000414
+        Kyber768   ML-KEM.Encaps()  N=    8  cyc=   1507888  sec= 0.000458
+        Kyber768   ML-KEM.Decaps()  N=    8  cyc=   1962967  sec= 0.000596
+        Kyber768   K-PKE.Encrypt()  N=    8  cyc=   1420836  sec= 0.000431
+        Kyber768   K-PKE.Decrypt()  N=    8  cyc=    430400  sec= 0.000131
+        Kyber768        ciphertext  N=   16  len=     17408
+        Kyber768   ML-KEM.KeyGen()  N=   16  cyc=   2725472  sec= 0.000827
+        Kyber768   ML-KEM.Encaps()  N=   16  cyc=   3016517  sec= 0.000916
+        Kyber768   ML-KEM.Decaps()  N=   16  cyc=   3921642  sec= 0.001191
+        Kyber768   K-PKE.Encrypt()  N=   16  cyc=   2837646  sec= 0.000862
+        Kyber768   K-PKE.Decrypt()  N=   16  cyc=    859908  sec= 0.000261
+        Kyber768        ciphertext  N=   32  len=     34816
+        Kyber768   ML-KEM.KeyGen()  N=   32  cyc=   5446854  sec= 0.001654
+        Kyber768   ML-KEM.Encaps()  N=   32  cyc=   6042726  sec= 0.001835
+        Kyber768   ML-KEM.Decaps()  N=   32  cyc=   7904776  sec= 0.002400
+        Kyber768   K-PKE.Encrypt()  N=   32  cyc=   5692472  sec= 0.001728
+        Kyber768   K-PKE.Decrypt()  N=   32  cyc=   1719200  sec= 0.000522
+        Kyber768        ciphertext  N=   64  len=     69632
+        Kyber768   ML-KEM.KeyGen()  N=   64  cyc=  10899314  sec= 0.003309
+        Kyber768   ML-KEM.Encaps()  N=   64  cyc=  12925578  sec= 0.003924
+        Kyber768   ML-KEM.Decaps()  N=   64  cyc=  16581581  sec= 0.005034
+        Kyber768   K-PKE.Encrypt()  N=   64  cyc=  12227017  sec= 0.003712
+        Kyber768   K-PKE.Decrypt()  N=   64  cyc=   3442952  sec= 0.001045
+        Kyber768        ciphertext  N=  128  len=    139264
+        Kyber768   ML-KEM.KeyGen()  N=  128  cyc=  21808650  sec= 0.006621
+        Kyber768   ML-KEM.Encaps()  N=  128  cyc=  25932443  sec= 0.007873
+        Kyber768   ML-KEM.Decaps()  N=  128  cyc=  33205137  sec= 0.010081
+        Kyber768   K-PKE.Encrypt()  N=  128  cyc=  24535550  sec= 0.007449
+        Kyber768   K-PKE.Decrypt()  N=  128  cyc=   6890160  sec= 0.002092
+        Kyber768        ciphertext  N=  256  len=    278528
+        Kyber768   ML-KEM.KeyGen()  N=  256  cyc=  43603433  sec= 0.013238
+        Kyber768   ML-KEM.Encaps()  N=  256  cyc=  51931697  sec= 0.015766
+        Kyber768   ML-KEM.Decaps()  N=  256  cyc=  66463675  sec= 0.020178
+        Kyber768   K-PKE.Encrypt()  N=  256  cyc=  49155506  sec= 0.014924
+        Kyber768   K-PKE.Decrypt()  N=  256  cyc=  13792545  sec= 0.004187
+        Kyber768        ciphertext  N=  512  len=    557056
+        Kyber768   ML-KEM.KeyGen()  N=  512  cyc=  87200327  sec= 0.026474
+        Kyber768   ML-KEM.Encaps()  N=  512  cyc= 103848166  sec= 0.031528
+        Kyber768   ML-KEM.Decaps()  N=  512  cyc= 132866571  sec= 0.040338
+        Kyber768   K-PKE.Encrypt()  N=  512  cyc=  98189077  sec= 0.029810
+        Kyber768   K-PKE.Decrypt()  N=  512  cyc=  27770737  sec= 0.008431
+        Kyber768        ciphertext  N= 1024  len=   1114112
+        Kyber768   ML-KEM.KeyGen()  N= 1024  cyc= 174410327  sec= 0.052951
+        Kyber768   ML-KEM.Encaps()  N= 1024  cyc= 207487069  sec= 0.062993
+        Kyber768   ML-KEM.Decaps()  N= 1024  cyc= 265739516  sec= 0.080678
+        Kyber768   K-PKE.Encrypt()  N= 1024  cyc= 196396614  sec= 0.059626
+        Kyber768   K-PKE.Decrypt()  N= 1024  cyc=  55856246  sec= 0.016958
+
+       Kyber1024        parameters  |pk|= 1568  |sk|= 3168  |ct|= 1568  |ss|= 32
+       Kyber1024              seed  time= 1736178729
+       Kyber1024        ciphertext  N=    1  len=      1568
+       Kyber1024   ML-KEM.KeyGen()  N=    1  cyc=    262222  sec= 0.000080
+       Kyber1024   ML-KEM.Encaps()  N=    1  cyc=    274469  sec= 0.000083
+       Kyber1024   ML-KEM.Decaps()  N=    1  cyc=    347327  sec= 0.000105
+       Kyber1024   K-PKE.Encrypt()  N=    1  cyc=    260478  sec= 0.000079
+       Kyber1024   K-PKE.Decrypt()  N=    1  cyc=     67712  sec= 0.000021
+       Kyber1024        ciphertext  N=    2  len=      3136
+       Kyber1024   ML-KEM.KeyGen()  N=    2  cyc=    524053  sec= 0.000159
+       Kyber1024   ML-KEM.Encaps()  N=    2  cyc=    548634  sec= 0.000167
+       Kyber1024   ML-KEM.Decaps()  N=    2  cyc=    694353  sec= 0.000211
+       Kyber1024   K-PKE.Encrypt()  N=    2  cyc=    520951  sec= 0.000158
+       Kyber1024   K-PKE.Decrypt()  N=    2  cyc=    135562  sec= 0.000041
+       Kyber1024        ciphertext  N=    4  len=      6272
+       Kyber1024   ML-KEM.KeyGen()  N=    4  cyc=   1048074  sec= 0.000318
+       Kyber1024   ML-KEM.Encaps()  N=    4  cyc=   1096730  sec= 0.000333
+       Kyber1024   ML-KEM.Decaps()  N=    4  cyc=   1387899  sec= 0.000421
+       Kyber1024   K-PKE.Encrypt()  N=    4  cyc=   1041286  sec= 0.000316
+       Kyber1024   K-PKE.Decrypt()  N=    4  cyc=    270975  sec= 0.000082
+       Kyber1024        ciphertext  N=    8  len=     12544
+       Kyber1024   ML-KEM.KeyGen()  N=    8  cyc=   2095495  sec= 0.000636
+       Kyber1024   ML-KEM.Encaps()  N=    8  cyc=   2196758  sec= 0.000667
+       Kyber1024   ML-KEM.Decaps()  N=    8  cyc=   2780317  sec= 0.000844
+       Kyber1024   K-PKE.Encrypt()  N=    8  cyc=   2084069  sec= 0.000633
+       Kyber1024   K-PKE.Decrypt()  N=    8  cyc=    542286  sec= 0.000165
+       Kyber1024        ciphertext  N=   16  len=     25088
+       Kyber1024   ML-KEM.KeyGen()  N=   16  cyc=   4194131  sec= 0.001273
+       Kyber1024   ML-KEM.Encaps()  N=   16  cyc=   4398704  sec= 0.001335
+       Kyber1024   ML-KEM.Decaps()  N=   16  cyc=   5576224  sec= 0.001693
+       Kyber1024   K-PKE.Encrypt()  N=   16  cyc=   4173078  sec= 0.001267
+       Kyber1024   K-PKE.Decrypt()  N=   16  cyc=   1084106  sec= 0.000329
+       Kyber1024        ciphertext  N=   32  len=     50176
+       Kyber1024   ML-KEM.KeyGen()  N=   32  cyc=   8386985  sec= 0.002546
+       Kyber1024   ML-KEM.Encaps()  N=   32  cyc=   9546283  sec= 0.002898
+       Kyber1024   ML-KEM.Decaps()  N=   32  cyc=  11893213  sec= 0.003611
+       Kyber1024   K-PKE.Encrypt()  N=   32  cyc=   9101155  sec= 0.002763
+       Kyber1024   K-PKE.Decrypt()  N=   32  cyc=   2167593  sec= 0.000658
+       Kyber1024        ciphertext  N=   64  len=    100352
+       Kyber1024   ML-KEM.KeyGen()  N=   64  cyc=  16762856  sec= 0.005089
+       Kyber1024   ML-KEM.Encaps()  N=   64  cyc=  19174838  sec= 0.005821
+       Kyber1024   ML-KEM.Decaps()  N=   64  cyc=  23859456  sec= 0.007244
+       Kyber1024   K-PKE.Encrypt()  N=   64  cyc=  18304996  sec= 0.005557
+       Kyber1024   K-PKE.Decrypt()  N=   64  cyc=   4342347  sec= 0.001318
+       Kyber1024        ciphertext  N=  128  len=    200704
+       Kyber1024   ML-KEM.KeyGen()  N=  128  cyc=  33543890  sec= 0.010184
+       Kyber1024   ML-KEM.Encaps()  N=  128  cyc=  38372451  sec= 0.011650
+       Kyber1024   ML-KEM.Decaps()  N=  128  cyc=  47719836  sec= 0.014488
+       Kyber1024   K-PKE.Encrypt()  N=  128  cyc=  36613758  sec= 0.011116
+       Kyber1024   K-PKE.Decrypt()  N=  128  cyc=   8668697  sec= 0.002632
+       Kyber1024        ciphertext  N=  256  len=    401408
+       Kyber1024   ML-KEM.KeyGen()  N=  256  cyc=  67160788  sec= 0.020390
+       Kyber1024   ML-KEM.Encaps()  N=  256  cyc=  76741000  sec= 0.023298
+       Kyber1024   ML-KEM.Decaps()  N=  256  cyc=  95452580  sec= 0.028979
+       Kyber1024   K-PKE.Encrypt()  N=  256  cyc=  73199948  sec= 0.022223
+       Kyber1024   K-PKE.Decrypt()  N=  256  cyc=  17393215  sec= 0.005281
+       Kyber1024        ciphertext  N=  512  len=    802816
+       Kyber1024   ML-KEM.KeyGen()  N=  512  cyc= 134242298  sec= 0.040756
+       Kyber1024   ML-KEM.Encaps()  N=  512  cyc= 153537692  sec= 0.046614
+       Kyber1024   ML-KEM.Decaps()  N=  512  cyc= 190996408  sec= 0.057986
+       Kyber1024   K-PKE.Encrypt()  N=  512  cyc= 146353130  sec= 0.044433
+       Kyber1024   K-PKE.Decrypt()  N=  512  cyc=  34947687  sec= 0.010610
+       Kyber1024        ciphertext  N= 1024  len=   1605632
+       Kyber1024   ML-KEM.KeyGen()  N= 1024  cyc= 268332552  sec= 0.081465
+       Kyber1024   ML-KEM.Encaps()  N= 1024  cyc= 306831351  sec= 0.093154
+       Kyber1024   ML-KEM.Decaps()  N= 1024  cyc= 381587226  sec= 0.115849
+       Kyber1024   K-PKE.Encrypt()  N= 1024  cyc= 292586107  sec= 0.088829
+       Kyber1024   K-PKE.Decrypt()  N= 1024  cyc=  69703829  sec= 0.021162

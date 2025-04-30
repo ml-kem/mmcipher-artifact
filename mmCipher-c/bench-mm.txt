@@ -1,0 +1,350 @@
+# Linux zinc 6.12.6-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.6-1 (2024-12-21) x86_64 GNU/Linux
+# Tue Jan  7 21:03:32 UTC 2025
+
+ mmCipher-KEM-128        parameters  m= 4  n= 4  du= 10  dv= 2  sig0= 15.900000  sig1= 368459.340000
+ mmCipher-KEM-128              seed  time= 1736283813
+ mmCipher-KEM-128        ciphertext  N=    1  len=      1312
+ mmCipher-KEM-128         mmSetup()  N=    1  cyc=    178243  sec= 0.000054
+ mmCipher-KEM-128          mmKGen()  N=    1  cyc=     56714  sec= 0.000017
+ mmCipher-KEM-128         mmEncap()  N=    1  cyc=    268764  sec= 0.000082
+ mmCipher-KEM-128         mmDecap()  N=    1  cyc=     43213  sec= 0.000013
+ mmCipher-KEM-128        ciphertext  N=    2  len=      1344
+ mmCipher-KEM-128         mmSetup()  N=    2  cyc=    186099  sec= 0.000056
+ mmCipher-KEM-128          mmKGen()  N=    2  cyc=    116221  sec= 0.000035
+ mmCipher-KEM-128         mmEncap()  N=    2  cyc=    311964  sec= 0.000095
+ mmCipher-KEM-128         mmDecap()  N=    2  cyc=     86418  sec= 0.000026
+ mmCipher-KEM-128        ciphertext  N=    4  len=      1408
+ mmCipher-KEM-128         mmSetup()  N=    4  cyc=    181510  sec= 0.000055
+ mmCipher-KEM-128          mmKGen()  N=    4  cyc=    233618  sec= 0.000071
+ mmCipher-KEM-128         mmEncap()  N=    4  cyc=    378531  sec= 0.000115
+ mmCipher-KEM-128         mmDecap()  N=    4  cyc=    172287  sec= 0.000052
+ mmCipher-KEM-128        ciphertext  N=    8  len=      1536
+ mmCipher-KEM-128         mmSetup()  N=    8  cyc=    189576  sec= 0.000058
+ mmCipher-KEM-128          mmKGen()  N=    8  cyc=    466945  sec= 0.000142
+ mmCipher-KEM-128         mmEncap()  N=    8  cyc=    540528  sec= 0.000164
+ mmCipher-KEM-128         mmDecap()  N=    8  cyc=    344963  sec= 0.000105
+ mmCipher-KEM-128        ciphertext  N=   16  len=      1792
+ mmCipher-KEM-128         mmSetup()  N=   16  cyc=    188860  sec= 0.000057
+ mmCipher-KEM-128          mmKGen()  N=   16  cyc=    933999  sec= 0.000284
+ mmCipher-KEM-128         mmEncap()  N=   16  cyc=    846378  sec= 0.000257
+ mmCipher-KEM-128         mmDecap()  N=   16  cyc=    689097  sec= 0.000209
+ mmCipher-KEM-128        ciphertext  N=   32  len=      2304
+ mmCipher-KEM-128         mmSetup()  N=   32  cyc=    177426  sec= 0.000054
+ mmCipher-KEM-128          mmKGen()  N=   32  cyc=   1820982  sec= 0.000553
+ mmCipher-KEM-128         mmEncap()  N=   32  cyc=   1482287  sec= 0.000450
+ mmCipher-KEM-128         mmDecap()  N=   32  cyc=   1379004  sec= 0.000419
+ mmCipher-KEM-128        ciphertext  N=   64  len=      3328
+ mmCipher-KEM-128         mmSetup()  N=   64  cyc=    185357  sec= 0.000056
+ mmCipher-KEM-128          mmKGen()  N=   64  cyc=   3742533  sec= 0.001136
+ mmCipher-KEM-128         mmEncap()  N=   64  cyc=   2707758  sec= 0.000822
+ mmCipher-KEM-128         mmDecap()  N=   64  cyc=   2762543  sec= 0.000839
+ mmCipher-KEM-128        ciphertext  N=  128  len=      5376
+ mmCipher-KEM-128         mmSetup()  N=  128  cyc=    194866  sec= 0.000059
+ mmCipher-KEM-128          mmKGen()  N=  128  cyc=   7503769  sec= 0.002278
+ mmCipher-KEM-128         mmEncap()  N=  128  cyc=   5205966  sec= 0.001581
+ mmCipher-KEM-128         mmDecap()  N=  128  cyc=   5522943  sec= 0.001677
+ mmCipher-KEM-128        ciphertext  N=  256  len=      9472
+ mmCipher-KEM-128         mmSetup()  N=  256  cyc=    185219  sec= 0.000056
+ mmCipher-KEM-128          mmKGen()  N=  256  cyc=  15052788  sec= 0.004570
+ mmCipher-KEM-128         mmEncap()  N=  256  cyc=  10593223  sec= 0.003216
+ mmCipher-KEM-128         mmDecap()  N=  256  cyc=  11038412  sec= 0.003351
+ mmCipher-KEM-128        ciphertext  N=  512  len=     17664
+ mmCipher-KEM-128         mmSetup()  N=  512  cyc=    188698  sec= 0.000057
+ mmCipher-KEM-128          mmKGen()  N=  512  cyc=  30112713  sec= 0.009142
+ mmCipher-KEM-128         mmEncap()  N=  512  cyc=  21124660  sec= 0.006413
+ mmCipher-KEM-128         mmDecap()  N=  512  cyc=  22077721  sec= 0.006703
+ mmCipher-KEM-128        ciphertext  N= 1024  len=     34048
+ mmCipher-KEM-128         mmSetup()  N= 1024  cyc=    188755  sec= 0.000057
+ mmCipher-KEM-128          mmKGen()  N= 1024  cyc=  60226716  sec= 0.018285
+ mmCipher-KEM-128         mmEncap()  N= 1024  cyc=  42107368  sec= 0.012784
+ mmCipher-KEM-128         mmDecap()  N= 1024  cyc=  44284240  sec= 0.013445
+
+ mmCipher-PKE-128        parameters  m= 4  n= 4  du= 10  dv= 2  sig0= 15.900000  sig1= 368459.340000
+ mmCipher-PKE-128              seed  time= 1736283887
+ mmCipher-PKE-128        ciphertext  N=    1  len=      1344
+ mmCipher-PKE-128         mmSetup()  N=    1  cyc=    178392  sec= 0.000054
+ mmCipher-PKE-128          mmKGen()  N=    1  cyc=     56877  sec= 0.000017
+ mmCipher-PKE-128           mmEnc()  N=    1  cyc=    270208  sec= 0.000082
+ mmCipher-PKE-128           mmDec()  N=    1  cyc=     43340  sec= 0.000013
+ mmCipher-PKE-128        ciphertext  N=    2  len=      1408
+ mmCipher-PKE-128         mmSetup()  N=    2  cyc=    189503  sec= 0.000058
+ mmCipher-PKE-128          mmKGen()  N=    2  cyc=    117480  sec= 0.000036
+ mmCipher-PKE-128           mmEnc()  N=    2  cyc=    308593  sec= 0.000094
+ mmCipher-PKE-128           mmDec()  N=    2  cyc=     87005  sec= 0.000026
+ mmCipher-PKE-128        ciphertext  N=    4  len=      1536
+ mmCipher-PKE-128         mmSetup()  N=    4  cyc=    189542  sec= 0.000058
+ mmCipher-PKE-128          mmKGen()  N=    4  cyc=    234462  sec= 0.000071
+ mmCipher-PKE-128           mmEnc()  N=    4  cyc=    389180  sec= 0.000118
+ mmCipher-PKE-128           mmDec()  N=    4  cyc=    173978  sec= 0.000053
+ mmCipher-PKE-128        ciphertext  N=    8  len=      1792
+ mmCipher-PKE-128         mmSetup()  N=    8  cyc=    189573  sec= 0.000058
+ mmCipher-PKE-128          mmKGen()  N=    8  cyc=    469860  sec= 0.000143
+ mmCipher-PKE-128           mmEnc()  N=    8  cyc=    550806  sec= 0.000167
+ mmCipher-PKE-128           mmDec()  N=    8  cyc=    347551  sec= 0.000106
+ mmCipher-PKE-128        ciphertext  N=   16  len=      2304
+ mmCipher-PKE-128         mmSetup()  N=   16  cyc=    189528  sec= 0.000058
+ mmCipher-PKE-128          mmKGen()  N=   16  cyc=    931132  sec= 0.000283
+ mmCipher-PKE-128           mmEnc()  N=   16  cyc=    870559  sec= 0.000264
+ mmCipher-PKE-128           mmDec()  N=   16  cyc=    694678  sec= 0.000211
+ mmCipher-PKE-128        ciphertext  N=   32  len=      3328
+ mmCipher-PKE-128         mmSetup()  N=   32  cyc=    188701  sec= 0.000057
+ mmCipher-PKE-128          mmKGen()  N=   32  cyc=   1869987  sec= 0.000568
+ mmCipher-PKE-128           mmEnc()  N=   32  cyc=   1504144  sec= 0.000457
+ mmCipher-PKE-128           mmDec()  N=   32  cyc=   1392297  sec= 0.000423
+ mmCipher-PKE-128        ciphertext  N=   64  len=      5376
+ mmCipher-PKE-128         mmSetup()  N=   64  cyc=    177861  sec= 0.000054
+ mmCipher-PKE-128          mmKGen()  N=   64  cyc=   3659047  sec= 0.001111
+ mmCipher-PKE-128           mmEnc()  N=   64  cyc=   2803218  sec= 0.000851
+ mmCipher-PKE-128           mmDec()  N=   64  cyc=   2781910  sec= 0.000845
+ mmCipher-PKE-128        ciphertext  N=  128  len=      9472
+ mmCipher-PKE-128         mmSetup()  N=  128  cyc=    191899  sec= 0.000058
+ mmCipher-PKE-128          mmKGen()  N=  128  cyc=   7506301  sec= 0.002279
+ mmCipher-PKE-128           mmEnc()  N=  128  cyc=   5432077  sec= 0.001649
+ mmCipher-PKE-128           mmDec()  N=  128  cyc=   5570001  sec= 0.001691
+ mmCipher-PKE-128        ciphertext  N=  256  len=     17664
+ mmCipher-PKE-128         mmSetup()  N=  256  cyc=    177758  sec= 0.000054
+ mmCipher-PKE-128          mmKGen()  N=  256  cyc=  14784113  sec= 0.004488
+ mmCipher-PKE-128           mmEnc()  N=  256  cyc=  10961615  sec= 0.003328
+ mmCipher-PKE-128           mmDec()  N=  256  cyc=  11130644  sec= 0.003379
+ mmCipher-PKE-128        ciphertext  N=  512  len=     34048
+ mmCipher-PKE-128         mmSetup()  N=  512  cyc=    206044  sec= 0.000063
+ mmCipher-PKE-128          mmKGen()  N=  512  cyc=  29413150  sec= 0.008930
+ mmCipher-PKE-128           mmEnc()  N=  512  cyc=  21733031  sec= 0.006598
+ mmCipher-PKE-128           mmDec()  N=  512  cyc=  22448990  sec= 0.006816
+ mmCipher-PKE-128        ciphertext  N= 1024  len=     66816
+ mmCipher-PKE-128         mmSetup()  N= 1024  cyc=    177389  sec= 0.000054
+ mmCipher-PKE-128          mmKGen()  N= 1024  cyc=  58932525  sec= 0.017892
+ mmCipher-PKE-128           mmEnc()  N= 1024  cyc=  43358567  sec= 0.013164
+ mmCipher-PKE-128           mmDec()  N= 1024  cyc=  44555745  sec= 0.013527
+
+ mmCipher-KEM-192        parameters  m= 7  n= 7  du= 11  dv= 2  sig0= 15.900000  sig1= 488797.360000
+ mmCipher-KEM-192              seed  time= 1736283962
+ mmCipher-KEM-192        ciphertext  N=    1  len=      2496
+ mmCipher-KEM-192         mmSetup()  N=    1  cyc=    546204  sec= 0.000166
+ mmCipher-KEM-192          mmKGen()  N=    1  cyc=     78855  sec= 0.000024
+ mmCipher-KEM-192         mmEncap()  N=    1  cyc=    512542  sec= 0.000156
+ mmCipher-KEM-192         mmDecap()  N=    1  cyc=     67772  sec= 0.000021
+ mmCipher-KEM-192        ciphertext  N=    2  len=      2528
+ mmCipher-KEM-192         mmSetup()  N=    2  cyc=    566813  sec= 0.000172
+ mmCipher-KEM-192          mmKGen()  N=    2  cyc=    157846  sec= 0.000048
+ mmCipher-KEM-192         mmEncap()  N=    2  cyc=    565285  sec= 0.000172
+ mmCipher-KEM-192         mmDecap()  N=    2  cyc=    135603  sec= 0.000041
+ mmCipher-KEM-192        ciphertext  N=    4  len=      2592
+ mmCipher-KEM-192         mmSetup()  N=    4  cyc=    546488  sec= 0.000166
+ mmCipher-KEM-192          mmKGen()  N=    4  cyc=    313801  sec= 0.000095
+ mmCipher-KEM-192         mmEncap()  N=    4  cyc=    656319  sec= 0.000199
+ mmCipher-KEM-192         mmDecap()  N=    4  cyc=    271351  sec= 0.000082
+ mmCipher-KEM-192        ciphertext  N=    8  len=      2720
+ mmCipher-KEM-192         mmSetup()  N=    8  cyc=    566579  sec= 0.000172
+ mmCipher-KEM-192          mmKGen()  N=    8  cyc=    630222  sec= 0.000191
+ mmCipher-KEM-192         mmEncap()  N=    8  cyc=    867763  sec= 0.000263
+ mmCipher-KEM-192         mmDecap()  N=    8  cyc=    542414  sec= 0.000165
+ mmCipher-KEM-192        ciphertext  N=   16  len=      2976
+ mmCipher-KEM-192         mmSetup()  N=   16  cyc=    567316  sec= 0.000172
+ mmCipher-KEM-192          mmKGen()  N=   16  cyc=   1259965  sec= 0.000383
+ mmCipher-KEM-192         mmEncap()  N=   16  cyc=   1271484  sec= 0.000386
+ mmCipher-KEM-192         mmDecap()  N=   16  cyc=   1084434  sec= 0.000329
+ mmCipher-KEM-192        ciphertext  N=   32  len=      3488
+ mmCipher-KEM-192         mmSetup()  N=   32  cyc=    567647  sec= 0.000172
+ mmCipher-KEM-192          mmKGen()  N=   32  cyc=   2519847  sec= 0.000765
+ mmCipher-KEM-192         mmEncap()  N=   32  cyc=   2084423  sec= 0.000633
+ mmCipher-KEM-192         mmDecap()  N=   32  cyc=   2164487  sec= 0.000657
+ mmCipher-KEM-192        ciphertext  N=   64  len=      4512
+ mmCipher-KEM-192         mmSetup()  N=   64  cyc=    570853  sec= 0.000173
+ mmCipher-KEM-192          mmKGen()  N=   64  cyc=   5043091  sec= 0.001531
+ mmCipher-KEM-192         mmEncap()  N=   64  cyc=   3693174  sec= 0.001121
+ mmCipher-KEM-192         mmDecap()  N=   64  cyc=   4338562  sec= 0.001317
+ mmCipher-KEM-192        ciphertext  N=  128  len=      6560
+ mmCipher-KEM-192         mmSetup()  N=  128  cyc=    561978  sec= 0.000171
+ mmCipher-KEM-192          mmKGen()  N=  128  cyc=  10081609  sec= 0.003061
+ mmCipher-KEM-192         mmEncap()  N=  128  cyc=   6940828  sec= 0.002107
+ mmCipher-KEM-192         mmDecap()  N=  128  cyc=   8675220  sec= 0.002634
+ mmCipher-KEM-192        ciphertext  N=  256  len=     10656
+ mmCipher-KEM-192         mmSetup()  N=  256  cyc=    561830  sec= 0.000171
+ mmCipher-KEM-192          mmKGen()  N=  256  cyc=  20154299  sec= 0.006119
+ mmCipher-KEM-192         mmEncap()  N=  256  cyc=  13766153  sec= 0.004179
+ mmCipher-KEM-192         mmDecap()  N=  256  cyc=  17347107  sec= 0.005267
+ mmCipher-KEM-192        ciphertext  N=  512  len=     18848
+ mmCipher-KEM-192         mmSetup()  N=  512  cyc=    576624  sec= 0.000175
+ mmCipher-KEM-192          mmKGen()  N=  512  cyc=  40321238  sec= 0.012242
+ mmCipher-KEM-192         mmEncap()  N=  512  cyc=  27271797  sec= 0.008280
+ mmCipher-KEM-192         mmDecap()  N=  512  cyc=  34927222  sec= 0.010604
+ mmCipher-KEM-192        ciphertext  N= 1024  len=     35232
+ mmCipher-KEM-192         mmSetup()  N= 1024  cyc=    543640  sec= 0.000165
+ mmCipher-KEM-192          mmKGen()  N= 1024  cyc=  80264169  sec= 0.024368
+ mmCipher-KEM-192         mmEncap()  N= 1024  cyc=  54413339  sec= 0.016520
+ mmCipher-KEM-192         mmDecap()  N= 1024  cyc=  69330332  sec= 0.021049
+
+ mmCipher-PKE-192        parameters  m= 7  n= 7  du= 11  dv= 2  sig0= 15.900000  sig1= 488797.360000
+ mmCipher-PKE-192              seed  time= 1736284094
+ mmCipher-PKE-192        ciphertext  N=    1  len=      2528
+ mmCipher-PKE-192         mmSetup()  N=    1  cyc=    545721  sec= 0.000166
+ mmCipher-PKE-192          mmKGen()  N=    1  cyc=     78317  sec= 0.000024
+ mmCipher-PKE-192           mmEnc()  N=    1  cyc=    509848  sec= 0.000155
+ mmCipher-PKE-192           mmDec()  N=    1  cyc=     68210  sec= 0.000021
+ mmCipher-PKE-192        ciphertext  N=    2  len=      2592
+ mmCipher-PKE-192         mmSetup()  N=    2  cyc=    569217  sec= 0.000173
+ mmCipher-PKE-192          mmKGen()  N=    2  cyc=    157171  sec= 0.000048
+ mmCipher-PKE-192           mmEnc()  N=    2  cyc=    566760  sec= 0.000172
+ mmCipher-PKE-192           mmDec()  N=    2  cyc=    136171  sec= 0.000041
+ mmCipher-PKE-192        ciphertext  N=    4  len=      2720
+ mmCipher-PKE-192         mmSetup()  N=    4  cyc=    569588  sec= 0.000173
+ mmCipher-PKE-192          mmKGen()  N=    4  cyc=    314313  sec= 0.000095
+ mmCipher-PKE-192           mmEnc()  N=    4  cyc=    669011  sec= 0.000203
+ mmCipher-PKE-192           mmDec()  N=    4  cyc=    272229  sec= 0.000083
+ mmCipher-PKE-192        ciphertext  N=    8  len=      2976
+ mmCipher-PKE-192         mmSetup()  N=    8  cyc=    569490  sec= 0.000173
+ mmCipher-PKE-192          mmKGen()  N=    8  cyc=    628620  sec= 0.000191
+ mmCipher-PKE-192           mmEnc()  N=    8  cyc=    871470  sec= 0.000265
+ mmCipher-PKE-192           mmDec()  N=    8  cyc=    544797  sec= 0.000165
+ mmCipher-PKE-192        ciphertext  N=   16  len=      3488
+ mmCipher-PKE-192         mmSetup()  N=   16  cyc=    569262  sec= 0.000173
+ mmCipher-PKE-192          mmKGen()  N=   16  cyc=   1257624  sec= 0.000382
+ mmCipher-PKE-192           mmEnc()  N=   16  cyc=   1296877  sec= 0.000394
+ mmCipher-PKE-192           mmDec()  N=   16  cyc=   1089972  sec= 0.000331
+ mmCipher-PKE-192        ciphertext  N=   32  len=      4512
+ mmCipher-PKE-192         mmSetup()  N=   32  cyc=    545905  sec= 0.000166
+ mmCipher-PKE-192          mmKGen()  N=   32  cyc=   2513394  sec= 0.000763
+ mmCipher-PKE-192           mmEnc()  N=   32  cyc=   2106744  sec= 0.000640
+ mmCipher-PKE-192           mmDec()  N=   32  cyc=   2175136  sec= 0.000660
+ mmCipher-PKE-192        ciphertext  N=   64  len=      6560
+ mmCipher-PKE-192         mmSetup()  N=   64  cyc=    567438  sec= 0.000172
+ mmCipher-PKE-192          mmKGen()  N=   64  cyc=   5041209  sec= 0.001531
+ mmCipher-PKE-192           mmEnc()  N=   64  cyc=   3746559  sec= 0.001137
+ mmCipher-PKE-192           mmDec()  N=   64  cyc=   4361670  sec= 0.001324
+ mmCipher-PKE-192        ciphertext  N=  128  len=     10656
+ mmCipher-PKE-192         mmSetup()  N=  128  cyc=    568152  sec= 0.000172
+ mmCipher-PKE-192          mmKGen()  N=  128  cyc=  10060827  sec= 0.003054
+ mmCipher-PKE-192           mmEnc()  N=  128  cyc=   7061308  sec= 0.002144
+ mmCipher-PKE-192           mmDec()  N=  128  cyc=   8699175  sec= 0.002641
+ mmCipher-PKE-192        ciphertext  N=  256  len=     18848
+ mmCipher-PKE-192         mmSetup()  N=  256  cyc=    567845  sec= 0.000172
+ mmCipher-PKE-192          mmKGen()  N=  256  cyc=  20148117  sec= 0.006117
+ mmCipher-PKE-192           mmEnc()  N=  256  cyc=  14047483  sec= 0.004265
+ mmCipher-PKE-192           mmDec()  N=  256  cyc=  17409494  sec= 0.005286
+ mmCipher-PKE-192        ciphertext  N=  512  len=     35232
+ mmCipher-PKE-192         mmSetup()  N=  512  cyc=    567585  sec= 0.000172
+ mmCipher-PKE-192          mmKGen()  N=  512  cyc=  40280274  sec= 0.012229
+ mmCipher-PKE-192           mmEnc()  N=  512  cyc=  27712435  sec= 0.008414
+ mmCipher-PKE-192           mmDec()  N=  512  cyc=  34864131  sec= 0.010585
+ mmCipher-PKE-192        ciphertext  N= 1024  len=     68000
+ mmCipher-PKE-192         mmSetup()  N= 1024  cyc=    545488  sec= 0.000166
+ mmCipher-PKE-192          mmKGen()  N= 1024  cyc=  80124981  sec= 0.024326
+ mmCipher-PKE-192           mmEnc()  N= 1024  cyc=  55141040  sec= 0.016741
+ mmCipher-PKE-192           mmDec()  N= 1024  cyc=  69706077  sec= 0.021163
+
+ mmCipher-KEM-256        parameters  m= 9  n= 9  du= 11  dv= 2  sig0= 15.900000  sig1= 554941.070000
+ mmCipher-KEM-256              seed  time= 1736284226
+ mmCipher-KEM-256        ciphertext  N=    1  len=      3200
+ mmCipher-KEM-256         mmSetup()  N=    1  cyc=    902330  sec= 0.000274
+ mmCipher-KEM-256          mmKGen()  N=    1  cyc=    106510  sec= 0.000032
+ mmCipher-KEM-256         mmEncap()  N=    1  cyc=    647983  sec= 0.000197
+ mmCipher-KEM-256         mmDecap()  N=    1  cyc=     85354  sec= 0.000026
+ mmCipher-KEM-256        ciphertext  N=    2  len=      3232
+ mmCipher-KEM-256         mmSetup()  N=    2  cyc=    922729  sec= 0.000280
+ mmCipher-KEM-256          mmKGen()  N=    2  cyc=    212980  sec= 0.000065
+ mmCipher-KEM-256         mmEncap()  N=    2  cyc=    696268  sec= 0.000211
+ mmCipher-KEM-256         mmDecap()  N=    2  cyc=    170657  sec= 0.000052
+ mmCipher-KEM-256        ciphertext  N=    4  len=      3296
+ mmCipher-KEM-256         mmSetup()  N=    4  cyc=    910808  sec= 0.000277
+ mmCipher-KEM-256          mmKGen()  N=    4  cyc=    425168  sec= 0.000129
+ mmCipher-KEM-256         mmEncap()  N=    4  cyc=    797079  sec= 0.000242
+ mmCipher-KEM-256         mmDecap()  N=    4  cyc=    342800  sec= 0.000104
+ mmCipher-KEM-256        ciphertext  N=    8  len=      3424
+ mmCipher-KEM-256         mmSetup()  N=    8  cyc=    918220  sec= 0.000279
+ mmCipher-KEM-256          mmKGen()  N=    8  cyc=    854415  sec= 0.000259
+ mmCipher-KEM-256         mmEncap()  N=    8  cyc=   1015384  sec= 0.000308
+ mmCipher-KEM-256         mmDecap()  N=    8  cyc=    683232  sec= 0.000207
+ mmCipher-KEM-256        ciphertext  N=   16  len=      3680
+ mmCipher-KEM-256         mmSetup()  N=   16  cyc=    917746  sec= 0.000279
+ mmCipher-KEM-256          mmKGen()  N=   16  cyc=   1705690  sec= 0.000518
+ mmCipher-KEM-256         mmEncap()  N=   16  cyc=   1431331  sec= 0.000435
+ mmCipher-KEM-256         mmDecap()  N=   16  cyc=   1361450  sec= 0.000413
+ mmCipher-KEM-256        ciphertext  N=   32  len=      4192
+ mmCipher-KEM-256         mmSetup()  N=   32  cyc=    918325  sec= 0.000279
+ mmCipher-KEM-256          mmKGen()  N=   32  cyc=   3401681  sec= 0.001033
+ mmCipher-KEM-256         mmEncap()  N=   32  cyc=   2256352  sec= 0.000685
+ mmCipher-KEM-256         mmDecap()  N=   32  cyc=   2732210  sec= 0.000829
+ mmCipher-KEM-256        ciphertext  N=   64  len=      5216
+ mmCipher-KEM-256         mmSetup()  N=   64  cyc=    902033  sec= 0.000274
+ mmCipher-KEM-256          mmKGen()  N=   64  cyc=   6818278  sec= 0.002070
+ mmCipher-KEM-256         mmEncap()  N=   64  cyc=   3909561  sec= 0.001187
+ mmCipher-KEM-256         mmDecap()  N=   64  cyc=   5460005  sec= 0.001658
+ mmCipher-KEM-256        ciphertext  N=  128  len=      7264
+ mmCipher-KEM-256         mmSetup()  N=  128  cyc=    905519  sec= 0.000275
+ mmCipher-KEM-256          mmKGen()  N=  128  cyc=  13638214  sec= 0.004141
+ mmCipher-KEM-256         mmEncap()  N=  128  cyc=   7276356  sec= 0.002209
+ mmCipher-KEM-256         mmDecap()  N=  128  cyc=  10952189  sec= 0.003325
+ mmCipher-KEM-256        ciphertext  N=  256  len=     11360
+ mmCipher-KEM-256         mmSetup()  N=  256  cyc=    945472  sec= 0.000287
+ mmCipher-KEM-256          mmKGen()  N=  256  cyc=  27252377  sec= 0.008274
+ mmCipher-KEM-256         mmEncap()  N=  256  cyc=  14346296  sec= 0.004356
+ mmCipher-KEM-256         mmDecap()  N=  256  cyc=  21845013  sec= 0.006632
+ mmCipher-KEM-256        ciphertext  N=  512  len=     19552
+ mmCipher-KEM-256         mmSetup()  N=  512  cyc=    917333  sec= 0.000279
+ mmCipher-KEM-256          mmKGen()  N=  512  cyc=  54506403  sec= 0.016548
+ mmCipher-KEM-256         mmEncap()  N=  512  cyc=  28118911  sec= 0.008537
+ mmCipher-KEM-256         mmDecap()  N=  512  cyc=  43663897  sec= 0.013256
+ mmCipher-KEM-256        ciphertext  N= 1024  len=     35936
+ mmCipher-KEM-256         mmSetup()  N= 1024  cyc=    916016  sec= 0.000278
+ mmCipher-KEM-256          mmKGen()  N= 1024  cyc= 109060237  sec= 0.033111
+ mmCipher-KEM-256         mmEncap()  N= 1024  cyc=  55765442  sec= 0.016930
+ mmCipher-KEM-256         mmDecap()  N= 1024  cyc=  87370600  sec= 0.026526
+
+ mmCipher-PKE-256        parameters  m= 9  n= 9  du= 11  dv= 2  sig0= 15.900000  sig1= 554941.070000
+ mmCipher-PKE-256              seed  time= 1736284404
+ mmCipher-PKE-256        ciphertext  N=    1  len=      3232
+ mmCipher-PKE-256         mmSetup()  N=    1  cyc=    902105  sec= 0.000274
+ mmCipher-PKE-256          mmKGen()  N=    1  cyc=    106366  sec= 0.000032
+ mmCipher-PKE-256           mmEnc()  N=    1  cyc=    660108  sec= 0.000200
+ mmCipher-PKE-256           mmDec()  N=    1  cyc=     86552  sec= 0.000026
+ mmCipher-PKE-256        ciphertext  N=    2  len=      3296
+ mmCipher-PKE-256         mmSetup()  N=    2  cyc=    901861  sec= 0.000274
+ mmCipher-PKE-256          mmKGen()  N=    2  cyc=    212675  sec= 0.000065
+ mmCipher-PKE-256           mmEnc()  N=    2  cyc=    716254  sec= 0.000217
+ mmCipher-PKE-256           mmDec()  N=    2  cyc=    172059  sec= 0.000052
+ mmCipher-PKE-256        ciphertext  N=    4  len=      3424
+ mmCipher-PKE-256         mmSetup()  N=    4  cyc=    936256  sec= 0.000284
+ mmCipher-PKE-256          mmKGen()  N=    4  cyc=    427711  sec= 0.000130
+ mmCipher-PKE-256           mmEnc()  N=    4  cyc=    822344  sec= 0.000250
+ mmCipher-PKE-256           mmDec()  N=    4  cyc=    344105  sec= 0.000104
+ mmCipher-PKE-256        ciphertext  N=    8  len=      3680
+ mmCipher-PKE-256         mmSetup()  N=    8  cyc=    935044  sec= 0.000284
+ mmCipher-PKE-256          mmKGen()  N=    8  cyc=    853191  sec= 0.000259
+ mmCipher-PKE-256           mmEnc()  N=    8  cyc=   1046835  sec= 0.000318
+ mmCipher-PKE-256           mmDec()  N=    8  cyc=    688590  sec= 0.000209
+ mmCipher-PKE-256        ciphertext  N=   16  len=      4192
+ mmCipher-PKE-256         mmSetup()  N=   16  cyc=    935442  sec= 0.000284
+ mmCipher-PKE-256          mmKGen()  N=   16  cyc=   1706506  sec= 0.000518
+ mmCipher-PKE-256           mmEnc()  N=   16  cyc=   1503323  sec= 0.000456
+ mmCipher-PKE-256           mmDec()  N=   16  cyc=   1375520  sec= 0.000418
+ mmCipher-PKE-256        ciphertext  N=   32  len=      5216
+ mmCipher-PKE-256         mmSetup()  N=   32  cyc=    934088  sec= 0.000284
+ mmCipher-PKE-256          mmKGen()  N=   32  cyc=   3414894  sec= 0.001037
+ mmCipher-PKE-256           mmEnc()  N=   32  cyc=   2391086  sec= 0.000726
+ mmCipher-PKE-256           mmDec()  N=   32  cyc=   2752420  sec= 0.000836
+ mmCipher-PKE-256        ciphertext  N=   64  len=      7264
+ mmCipher-PKE-256         mmSetup()  N=   64  cyc=    902299  sec= 0.000274
+ mmCipher-PKE-256          mmKGen()  N=   64  cyc=   6828233  sec= 0.002073
+ mmCipher-PKE-256           mmEnc()  N=   64  cyc=   4207021  sec= 0.001277
+ mmCipher-PKE-256           mmDec()  N=   64  cyc=   5504275  sec= 0.001671
+ mmCipher-PKE-256        ciphertext  N=  128  len=     11360
+ mmCipher-PKE-256         mmSetup()  N=  128  cyc=    914978  sec= 0.000278
+ mmCipher-PKE-256          mmKGen()  N=  128  cyc=  13661242  sec= 0.004148
+ mmCipher-PKE-256           mmEnc()  N=  128  cyc=   7843894  sec= 0.002381
+ mmCipher-PKE-256           mmDec()  N=  128  cyc=  11023370  sec= 0.003347
+ mmCipher-PKE-256        ciphertext  N=  256  len=     19552
+ mmCipher-PKE-256         mmSetup()  N=  256  cyc=    899076  sec= 0.000273
+ mmCipher-PKE-256          mmKGen()  N=  256  cyc=  27321376  sec= 0.008295
+ mmCipher-PKE-256           mmEnc()  N=  256  cyc=  15486814  sec= 0.004702
+ mmCipher-PKE-256           mmDec()  N=  256  cyc=  22022820  sec= 0.006686
+ mmCipher-PKE-256        ciphertext  N=  512  len=     35936
+ mmCipher-PKE-256         mmSetup()  N=  512  cyc=    934812  sec= 0.000284
+ mmCipher-PKE-256          mmKGen()  N=  512  cyc=  54593401  sec= 0.016575
+ mmCipher-PKE-256           mmEnc()  N=  512  cyc=  30448835  sec= 0.009244
+ mmCipher-PKE-256           mmDec()  N=  512  cyc=  43939586  sec= 0.013340
+ mmCipher-PKE-256        ciphertext  N= 1024  len=     68704
+ mmCipher-PKE-256         mmSetup()  N= 1024  cyc=    932252  sec= 0.000283
+ mmCipher-PKE-256          mmKGen()  N= 1024  cyc= 109200752  sec= 0.033153
+ mmCipher-PKE-256           mmEnc()  N= 1024  cyc=  60209033  sec= 0.018279
+ mmCipher-PKE-256           mmDec()  N= 1024  cyc=  87932457  sec= 0.026696
