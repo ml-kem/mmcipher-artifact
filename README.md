@@ -21,9 +21,8 @@ for ZK proof experiments using the LaZer Library, and scripts and tools
 used for security parameter selection (computation of lattice parameter
 sets and decryption failure probabilities).
 
-We also provide an attack demonstration against the [Oracle-LWE based mmPKE
-published in ASIACRYPT 2025](https://eprint.iacr.org/2025/1655) discussed
-in Appendix B.
+The artifact also contains a cryptanalytic attack demonstration against the
+[Oracle-LWE based mmPKE published in ASIACRYPT 2025](https://eprint.iacr.org/2025/1655) discussed in Appendix B of our work.
 
 ##  Directory Structure
 
