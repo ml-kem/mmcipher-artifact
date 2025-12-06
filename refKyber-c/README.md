@@ -1,4 +1,4 @@
-#	refKyber-c
+#   refKyber-c
 
 This is the benchmark code used for "apples-to-apples" comparison between
 plain C implementations of Kyber and mmCipher.
@@ -11,20 +11,21 @@ creates a text file `bench.txt`.
 ```
 
 For purposes of reporting, the function names in the Kyber implementation
-have been mapped to the ML-KEM (CCA) and K-PKE (CPA) names from 
+have been mapped to the ML-KEM (CCA) and K-PKE (CPA) names from
 [FIPS 203](https://doi.org/10.6028/NIST.FIPS.203).
 
 
-##	Reference Kyber code
+##  Reference Kyber code
 
-The `kyber` symbolic link should point to the official 
-[reference implementation](https://github.com/pq-crystals/kyber) of
-Kyber from the Kyber design team. This code was tested against the
-commit `4768bd3` from Feb 16, 2025 (after FIPS 203 came out.)
+The `kyber` directory contains commit `4768bd3` (from Feb 16, 2025)
+of the original Kyber
+[reference implementation](https://github.com/pq-crystals/kyber).
+Only its `.git` history has been removed.
+This part was placed in Public Domain (cc0) by its authors.
 
-You can also have the repo right here:
+To replace the code with a fresh clone:
 ```
-rm -f kyber
+rm -rf kyber
 git clone https://github.com/pq-crystals/kyber.git
 ```
 

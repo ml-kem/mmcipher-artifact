@@ -1,5 +1,7 @@
 #   mmCipher-artifact
 
+Version: December 6, 2025
+
 A multi-message multi-recipient PKE/KEM enables the batch encryption of
 multiple messages (as a message vector) for multiple independent recipients
 in a single operation, significantly reducing costs, particularly bandwidth,
@@ -14,6 +16,39 @@ mmCipher-artifact
 ├── refKyber-c       # Plain C Kyber ref code for "apples-to-apples" benchmarks.
 ├── pr-fail-dec      # Computation of decryption/decaps failure probabilities.
 ├── param-sage       # SageMath lattice parameter selection/exploration scripts.
+├── LICENSE          # MIT License
 └── README.md        # this file
 ```
+
+##  USENIX Security 2026 Citation
+
+This artifact contains source code and scripts related to USENIX Security
+2026 paper:
+```
+@InProceedings{   WSSEY26,
+  author    = {Hongxiao Wang and Ron Steinfeld and Markku-Juhani O.
+                  Saarinen and Muhammed F. Esgin and Siu-Ming Yiu},
+  editor    = {Ben Stock and Ben Stock},
+  title     = {{mmCipher}: Batching Post-Quantum Public Key Encryption
+                  Made Bandwidth-Optimal},
+  booktitle = {35th {USENIX} Security Symposium, {USENIX} Security 2026,
+                  Baltimore, MD, USA, August 12-14, 2026},
+  note      = {Full version is available as IACR ePrint Report
+                  2025/1000},
+  url       = {https://eprint.iacr.org/2025/1000},
+  pages     = {(to appear)},
+  publisher = {{USENIX} Association},
+  year      = {2026}
+}
+```
+
+##  Open Science Statement
+
+We provide self-contained Python and portable C implementations of the
+scheme (with some aspects that may need further optimization for
+production-level deployment). The artifact also contains the code used for
+generating the comparative benchmarks reported in this work, source code
+for ZK proof experiments using the LaZer Library, and scripts and tools
+used for security parameter selection (computation of lattice parameter
+sets and decryption failure probabilities).
 
