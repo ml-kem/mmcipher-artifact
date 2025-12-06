@@ -35,7 +35,7 @@ mmCipher-artifact
 ├── refKyber-c        # Plain C Kyber ref code for "apples-to-apples" benchmarks.
 ├── pr-fail-dec       # Computation of decryption/decaps failure probabilities.
 ├── param-sage        # SageMath lattice parameter selection/exploration scripts.
-├── OracleMLWE-attack # Attack on Oracle MLWE-based mmPKE from Asiacrypt 2025.
+├── OracleMLWE-attack # Attack on Oracle MLWE-based mmPKE from ASIACRYPT 2025.
 ├── LICENSE           # MIT License
 └── README.md         # this file
 ```
