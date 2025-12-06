@@ -3,8 +3,8 @@
 Version: December 6, 2025
 
 This is an artifact for: Hongxiao Wang, Ron Steinfeld, Markku-Juhani O.
-Saarinen, Muhammed F. Esgin, and Siu-Ming Yiu: "mmCipher: Batching
-Post-Quantum Public Key Encryption Made Bandwidth-Optimal."
+Saarinen, Muhammed F. Esgin, and Siu-Ming Yiu: _"mmCipher: Batching
+Post-Quantum Public Key Encryption Made Bandwidth-Optimal."_
 To appear in USENIX Security 2026.
 Preprint: [IACR ePrint 2025/1000](https://eprint.iacr.org/2025/1000.pdf)
 
