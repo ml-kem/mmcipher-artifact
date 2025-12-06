@@ -2,10 +2,26 @@
 
 Version: December 6, 2025
 
+This is an artifact for: Hongxiao Wang, Ron Steinfeld, Markku-Juhani O.
+Saarinen, Muhammed F. Esgin, and Siu-Ming Yiu: "mmCipher: Batching
+Post-Quantum Public Key Encryption Made Bandwidth-Optimal."
+To appear in USENIX Security 2026.
+Preprint: [IACR ePrint 2025/1000](https://eprint.iacr.org/2025/1000.pdf)
+
 A multi-message multi-recipient PKE/KEM enables the batch encryption of
 multiple messages (as a message vector) for multiple independent recipients
 in a single operation, significantly reducing costs, particularly bandwidth,
 compared to the trivial solution of encrypting each message individually.
+
+We provide self-contained Python and portable C implementations of the
+scheme (with some aspects that may need further optimization for
+production-level deployment). The artifact also contains the code used for
+generating the comparative benchmarks reported in this work, source code
+for ZK proof experiments using the LaZer Library, and scripts and tools
+used for security parameter selection (computation of lattice parameter
+sets and decryption failure probabilities).
+
+##  Directory Structure
 
 What's here:
 ```
@@ -19,6 +35,8 @@ mmCipher-artifact
 ├── LICENSE          # MIT License
 └── README.md        # this file
 ```
+
+Each directory contains a `README.md` with further instructions.
 
 ##  USENIX Security 2026 Citation
 
@@ -41,14 +59,4 @@ This artifact contains source code and scripts related to USENIX Security
   year      = {2026}
 }
 ```
-
-##  Open Science Statement
-
-We provide self-contained Python and portable C implementations of the
-scheme (with some aspects that may need further optimization for
-production-level deployment). The artifact also contains the code used for
-generating the comparative benchmarks reported in this work, source code
-for ZK proof experiments using the LaZer Library, and scripts and tools
-used for security parameter selection (computation of lattice parameter
-sets and decryption failure probabilities).
 
