@@ -21,8 +21,6 @@ for ZK proof experiments using the LaZer Library, and scripts and tools
 used for security parameter selection (computation of lattice parameter
 sets and decryption failure probabilities).
 
-The artifact also contains a cryptanalytic attack demonstration against the
-[Oracle-LWE based mmPKE published in ASIACRYPT 2025](https://eprint.iacr.org/2025/1655) discussed in Appendix B of our work.
 
 ##  Directory Structure
 
@@ -35,7 +33,6 @@ mmCipher-artifact
 ├── refKyber-c        # Plain C Kyber ref code for "apples-to-apples" benchmarks.
 ├── pr-fail-dec       # Computation of decryption/decaps failure probabilities.
 ├── param-sage        # SageMath lattice parameter selection/exploration scripts.
-├── OracleMLWE-attack # Attack on Oracle MLWE-based mmPKE from ASIACRYPT 2025.
 ├── LICENSE           # MIT License
 └── README.md         # this file
 ```
