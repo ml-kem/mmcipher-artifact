@@ -8,6 +8,10 @@ from matplotlib.ticker import FixedLocator, NullFormatter
 from matplotlib.lines import Line2D
 import sys
 
+# usenix parameter settings
+plt.rcParams['pdf.fonttype'] = 42
+plt.rcParams['ps.fonttype'] = 42
+
 # Set font to Times New Roman
 #plt.rcParams['font.family'] = 'Times New Roman'
 #plt.rcParams['mathtext.fontset'] = 'custom'
